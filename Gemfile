@@ -6,6 +6,12 @@ ruby "3.1.2"
 # For Authentification User
 gem "devise"
 
+#External Libraries
+gem "font-awesome-sass", "~> 6.1"
+
+#Form
+gem "simple_form", github: "heartcombo/simple_form"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
 
@@ -46,7 +52,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-# gem "sassc-rails"
+gem "sassc-rails"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
